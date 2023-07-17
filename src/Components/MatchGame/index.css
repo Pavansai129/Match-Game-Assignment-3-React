@@ -1,0 +1,59 @@
+body {
+  margin: 0px;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+.logo-score-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 10vh;
+  width: 100%;
+  padding-left: 30px;
+  padding-right: 30px;
+  background-color: #2c0e3a;
+}
+.app-logo {
+  width: 15%;
+}
+.score-timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+}
+.score {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  margin-right: 10px;
+}
+.timer-image {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  width: 10%;
+  margin-right: 10px;
+}
+.time {
+  color: #fec653;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  margin-right: 10px;
+}
