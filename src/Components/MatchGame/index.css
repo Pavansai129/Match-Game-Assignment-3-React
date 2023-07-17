@@ -57,3 +57,98 @@ body {
   font-size: 25px;
   margin-right: 10px;
 }
+.game-body-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-bg.png');
+  background-size: cover;
+  min-height: 90vh;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 50px;
+}
+.match-game-image-tabs-thumbnails-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 65%;
+}
+.match-image {
+  width: 100%;
+}
+.tabs-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-left: 0px;
+}
+.thumbnails-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding-left: 0px;
+  flex-wrap: wrap;
+}
+.score-card-bg-container {
+  width: 70%;
+}
+.score-card-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url('https://assets.ccbp.in/frontend/react-js/match-game-score-card-sm-bg.png');
+  background-size: cover;
+  padding-top: 330px;
+  padding-bottom: 100px;
+  width: 100%;
+}
+.trophy-image {
+  width: 70%;
+}
+.your-score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.game-score-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 50px;
+}
+.game-score {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 80px;
+}
+.play-again-button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 30%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background-color: #cf60c8;
+}
+.play-again-image {
+  width: 20%;
+  margin-right: 5px;
+}
+.play-again-text {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 40px;
+}

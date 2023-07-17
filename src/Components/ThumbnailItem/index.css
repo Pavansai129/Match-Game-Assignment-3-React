@@ -1,0 +1,15 @@
+.thumbnail-item {
+  list-style-type: none;
+  width: 185px;
+  margin-bottom: 10px;
+}
+.thumbnail-button {
+  width: 100%;
+  padding: 0px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+}
+.thumbnail {
+  width: 100%;
+}
