@@ -252,7 +252,7 @@ class MatchGame extends Component {
   state = {
     gameStarts: true,
     score: 0,
-    time: 3,
+    time: 60,
     imgUrl: imagesList[0].imageUrl,
     imgId: imagesList[0].id,
     tabId: tabsList[0].tabId,
@@ -274,7 +274,7 @@ class MatchGame extends Component {
 
   isClickedSame = id => {
     const {imgId, time} = this.state
-    const index = Math.floor(Math.random() * imagesList.length - 1)
+    const index = Math.floor(Math.random() * imagesList.length)
     if (imgId === id && time > 0) {
       this.setState(prevState => ({
         imgUrl: imagesList[index].imageUrl,
@@ -390,9 +390,8 @@ class MatchGame extends Component {
             />
           </li>
           <li className="score-timer-container">
-            <p className="score-text">
-              Score: <span className="score">{score}</span>
-            </p>
+            <p className="score-text">Score: </p>
+            <p className="score">{score}</p>
             <img
               src="https://assets.ccbp.in/frontend/react-js/match-game-timer-img.png"
               alt="timer"

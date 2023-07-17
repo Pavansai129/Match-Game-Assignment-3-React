@@ -1,0 +1,62 @@
+Total:27
+27
+0
+Match Game tests
+
+27
+27
+0
+Page should consist of at least two HTML list items and the tabsList, thumbnailsList should be rendered using a unique key as a prop for each tab item and thumbnail item respectively
+234 ms 
+Page should consist of an HTML image element with alt attribute value as "website logo" and src as the given website logo URL
+160 ms 
+Page should consist of at least three HTML unordered list elements to display the list of nav items, tab items, and thumbnail items
+40 ms 
+Page should consist of at least fifteen HTML list items to display the list of nav items, tab items, and thumbnail items
+79 ms 
+Page should consist of an HTML paragraph element with text content as "Score:"
+15 ms 
+Page should initially consist of the user score as "0"
+12 ms 
+Page should consist of an HTML image element with alt attribute value as "timer" and src as the given timer image URL
+150 ms 
+Page should initially consist of an HTML paragraph element to display the timer limit with text content as "60 sec"
+24 ms 
+Page should initially consist of an HTML image element with alt attribute value as "match" and src as the value of the key "imageUrl" from the first object in imagesList provided
+135 ms 
+Page should consist of at least thirteen HTML button elements each inside an HTML list item
+13 ms 
+Page should consist of at least three HTML button elements with text content equal to the "displayText" value of each item in tabsList provided
+517 ms 
+When the page is opened, the Fruits tab should be active, and the page should consist of HTML image elements with alt as "thumbnail" and src as the value of the key "thumbnailUrl" with category "FRUIT" from imagesList provided
+177 ms 
+When the page is opened, the timer should start running backwards, and should consist of an HTML paragraph element with text content displaying the remaining time
+128 ms 
+When the Animals tab is clicked, then the page should consist of HTML image elements with alt as "thumbnail" and src as the value of the key "thumbnailUrl" with category "ANIMAL" from imagesList provided
+301 ms 
+When the Places tab is clicked, then the page should consist of HTML image elements with alt as "thumbnail" and src as the value of the key "thumbnailUrl" with category "PLACE" from imagesList provided
+309 ms 
+When the Fruits tab is clicked, then the page should consist of HTML image elements with alt as "thumbnail" and src as the value of the key "thumbnailUrl" with category "FRUIT" from imagesList provided
+335 ms 
+When a thumbnail is clicked that is matched with the image to be matched, then the score should be incremented by one
+142 ms 
+When a thumbnail is clicked that is matched with the image to be matched, then the HTML image element with alt attribute value "match" should be changed randomly from imagesList provided
+251 ms 
+When the timer reached 0 sec, then the page should have an HTML image element with alt attribute value as "trophy" and src as the given trophy image URL
+178 ms 
+When the timer reached 0 sec, then the page should have an HTML paragraph element with text content as "YOUR SCORE"
+79 ms 
+When the timer reached 0 sec, then the page should have a score achieved by the user in the header and scorecard
+225 ms 
+When the timer reached 0 sec, then the page should have an HTML image element with alt attribute value as "reset" and src as the given reset image URL
+108 ms 
+When the timer reached 0 sec, then the page should have an HTML button element with text content as "PLAY AGAIN"
+128 ms 
+When the "PLAY AGAIN" button is clicked, then the timer should be reset to "60 Sec"
+101 ms 
+When the "PLAY AGAIN" button is clicked, then the score should be reset to "0"
+99 ms 
+When the "PLAY AGAIN" button is clicked, then the new game should be started and the page should consist of at least fifteen HTML list items
+155 ms 
+When a thumbnail is clicked that is mismatched with the image to be matched, then the page should show the scorecard view
+145 ms 
